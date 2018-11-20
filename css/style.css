@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.ba-title {
+	font-family: Playfair Display;
+	color:  rgba(255, 255, 255, 0.87);
+	font-size: 50px;
+	font-weight: 400;
+	text-align: center;
+	transform: scaleY(1.0011);
+	margin-bottom: 20px;
+}
+
+.ba-text {
+	font-family: Open Sans;
+	color:  rgba(255, 255, 255, 0.87);
+	font-size: 29.97px;/* Approximation due to font substitution */
+	font-weight: 300;
+	line-height: 47.946px;/* Approximation due to font substitution */
+	text-align: center;
+	transform: scaleY(1.0011);
+	margin-bottom: 30px;
+}
+
+.ba-button {
+	font-family: Open Sans;
+	color:  rgba(255, 255, 255, 0.87);
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 36px;
+	background-color:  #eecd31;
+	width: 184px;
+	height: 57px;
+	border-radius: 25px;
+	border: none;
+}
+
+.ba-firstslider, .ba-secondslider, .ba-thirdslider {
+	text-align: center;
+	margin-top: 150px;
+}
+
+.ba-slider {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.ba-prev:after {
+  color: white;
+  font-size: 30px;
+}
+
+.ba-next:before {
+  color: white;
+  font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ba-next {
+	float: right;
+	margin: -250px 20px 0px 0px;
+}
+
+.ba-prev {
+	float:  left;
+	margin: -250px 0px 0px 20px;
+}
